@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-h1 , h3  {
+h1 , h3 , p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: inline-block;
 
@@ -36,35 +36,6 @@ body{
 .bg-white{
     background-color: #ffffff;
 }
-
-.bg-lightblue{
-    background-color: #45abea;
-}
-
-.bg-purple{
-    background-color: #9c72e4;
-}
-
-.bg-green{
-    background-color: #64c0a9;
-}
-
-.bg-orange{
-    background-color: #f29e33;
-}
-
-.bg-pink{
-    background-color: #d863a1;
-}
-
-.bg-lightgreen{
-    background-color: #b0c926;
-}
-
-.bg-grey{
-    background-color: #f6f8f9;
-}
-
 /* /Utility */
 
 /* nav-bar */
@@ -87,8 +58,11 @@ body{
 .container{
     margin: 25px auto;
     width: 50%;
+    padding: 10px 0px 10px 50px;
 }
 
+
+/* box-button*/
 .box-button{
     border-bottom: 1px solid #cfd4d8;
     padding: 8px 0 8px 25px;
@@ -96,7 +70,7 @@ body{
 }
 
 .btn-size{
-    border-radius: 3px;
+    border-radius: 10px;
     font-size: 15px;
     padding:  4px 8px 4px 8px;    
     
@@ -118,11 +92,57 @@ body{
     background-color: white;
     border: 1px solid #cfd4d8;
 }
+/* /box-button */
 
+/* list task */
 .list{
-    display: none;
+    list-style-type: none;
 }
 
+/* checkpoint*/
+.checkpoint{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 8px 6px 8px;
+    border-radius: 12px ;
+   
+
+}
+.checkpoint-editorial{
+    background-color: #45abea;
+    border: 1px solid #45abea;
+
+
+}
+
+.checkpoint-goals{
+    background-color: #9c72e4;
+    border: 1px solid #9c72e4;
+}
+
+.checkpoint-recruiting{
+    background-color: #64c0a9;
+    border: 1px solid #64c0a9;
+}
+
+.checkpoint-mobile{
+    background-color: #f29e33;
+    border: 1px solid #f29e33;
+}
+
+.checkpoint-website{
+    background-color: #d863a1;
+    border: 1px solid #d863a1;
+}
+
+.checkpoint-sales{
+    background-color: #b0c926;
+    border: 1px solid #b0c926;
+}
+/* /checkpoint */
+
+/* icon-list */
 .icon-triangle, .icon-check-x{
     font-size: 25px;
     padding-right: 4px;
@@ -135,6 +155,9 @@ body{
 .icon-red{
     color: red;
 }
+/* /icon-list */
+
+/* /list task */
 
 /* /main */
 
