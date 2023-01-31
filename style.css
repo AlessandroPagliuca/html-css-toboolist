@@ -58,20 +58,23 @@ body{
 .container{
     margin: 25px auto;
     width: 50%;
-    padding: 10px 0px 10px 50px;
+}
+
+.space-left{
+    margin-left: 100px;
+
 }
 
 
 /* box-button*/
 .box-button{
     border-bottom: 1px solid #cfd4d8;
-    padding: 8px 0 8px 25px;
-
+    padding: 15px 0 15px 0px;
 }
 
 .btn-size{
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 18px;
     padding:  4px 8px 4px 8px;    
     
 }
@@ -97,6 +100,7 @@ body{
 /* list task */
 .list{
     list-style-type: none;
+    padding-top: 40px;
 }
 
 /* checkpoint*/
