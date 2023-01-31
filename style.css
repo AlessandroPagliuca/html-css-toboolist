@@ -5,17 +5,101 @@
     box-sizing: border-box;
 }
 
+h1 , h3  {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: inline-block;
+
+}
+
+h1{
+    font-size: 28px;
+    
+    
+}
+h3{
+    font-size: 14px;
+
+}
+p{
+  font-size: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+body{
+    background-color: #f6f8f9;
+
+}
 /* /General */
 
 /* Utility */
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-lightblue{
+    background-color: #45abea;
+}
+
+.bg-purple{
+    background-color: #9c72e4;
+}
+
+.bg-green{
+    background-color: #64c0a9;
+}
+
+.bg-orange{
+    background-color: #f29e33;
+}
+
+.bg-pink{
+    background-color: #d863a1;
+}
+
+.bg-lightgreen{
+    background-color: #b0c926;
+}
+
+.bg-grey{
+    background-color: #f6f8f9;
+}
 
 /* /Utility */
 
 /* nav-bar */
 
+.nav-bar{
+    border-bottom: 1px solid #f6f8f9;
+}
+
+
+.nav-bar img {
+    vertical-align:middle;
+    width: 40px;
+    margin: 8px 0px 8px 20px;
+}
+
 /* /nav-bar */
 
 /* main */
+
+.container{
+    margin: 25px auto;
+    width: 50%;
+    background-color: green;
+
+
+
+    
+}
+
+.box-button{
+    border-bottom: #f6f8f9;
+}
+
+.list{
+    display: none;
+}
 
 
 /* /main */
