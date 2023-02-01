@@ -149,16 +149,30 @@ body{
 
 /* icon-list */
 .icon-triangle, .icon-check-x{
-    font-size: 25px;
+    font-size: 14px;
     padding-right: 4px;
+}
+
+.circle-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    
 }
 
 .icon-green{
     color: green;
+    border: 1px solid green;
+
 }
 
 .icon-red{
     color: red;
+    border: 1px solid red;
+
 }
 /* /icon-list */
 
