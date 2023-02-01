@@ -58,6 +58,7 @@ body{
 .container{
     margin: 25px auto;
     width: 50%;
+    border-radius: 10px;
 }
 
 .space-left{
